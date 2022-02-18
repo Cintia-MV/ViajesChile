@@ -1,6 +1,6 @@
 body{
     font-family: roboto;
-    background-color: black;
+    background-color:black;
 }
 
 .logo-barra{
@@ -17,4 +17,24 @@ body{
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
+}
+
+i{
+    background-color: #17c0d6;
+}
+
+.quienesSomos{
+    font-size:medium;
+    color: #ffffff
+}
+
+.iconos{
+    padding-left: 9rem;
+    padding-right: 9rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.bg-calipso{
+    background-color: #17c0d6;
 }
