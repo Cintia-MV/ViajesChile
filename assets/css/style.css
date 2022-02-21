@@ -25,16 +25,53 @@ i{
     background-color: #17c0d6;
 }
 
-.quienesSomos{
-    font-size:medium;
-    color: #ffffff
+.avion{
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: justify;
+    margin-left: 7rem;
+    margin-right: 0rem;
+    padding-right: 0rem;
+
 }
 
-.iconos{
+.iconoAvion{
     padding-left: 9rem;
     padding-right: 9rem;
-    margin-left: 0;
+    margin-left: 7rem;
     margin-right: 0;
+}
+
+.monte{
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: justify;
+    margin-left: 3rem;
+    margin-right: 2.5rem;
+    padding-right: 1rem;
+}
+
+.iconoMonte{
+    padding-left: 9rem;
+    padding-right: 9rem;
+    margin-left: 3rem;
+    margin-right: 0;
+}
+
+.ruta{
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: justify;
+    margin-left: 0rem;
+    margin-right: 6rem;
+    padding-right: 1rem;
+}
+
+.iconoRuta{
+    padding-left: 9rem;
+    padding-right: 9rem;
+    margin-left: 0rem;
+    margin-right: 6rem;
 }
 
 .bg-calipso{
@@ -44,4 +81,10 @@ i{
 .imagenLink{
     margin-right: 0;
     margin-left: 12em;
+}
+
+.typeform{
+    background-color: #ffffff;
+    text-align: center;
+
 }
