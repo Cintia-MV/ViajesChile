@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" type="image/png" href="assets/img/viajes.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOSTRAP VERSIÓN 4.6.1 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- FONT AWESOME VERSIÓN 5.15.4 -->
     <link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,9 +19,10 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-transparente">
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-transparente mr-0">
         <div class="container">
-            <img class="logo-barra pl-0 pr-0" src="assets/img/viajes.svg" width="2%" alt="Logo-barra"><a
+            <img class="logo-barra pl-0 pr-0" src="assets/img/viajes.svg" width="4%" alt="Logo-barra"><a
                 class="navbar-brand" href="#">Viajes Chile</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,23 +31,25 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto mr-5">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                        <a class="nav-link desplazar" href="#carouselExampleControls">Inicio<span
+                                class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ">
                         <section class="d-none d-lg-block">
-                            <a class="nav-link " href="#">Quienes somos</a>
+                            <a class="nav-link desplazar" href="#quienes-somos">Quienes somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Destacados</a>
+                        <a class="nav-link desplazar" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link desplazar" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!-- CARROUSEL DE IMÁGENES-->
     <header>
         <div id="carouselExampleControls" class="carousel slide carrusel" data-ride="carousel">
             <div class="carousel-inner">
@@ -71,9 +76,10 @@
         </div>
     </header>
 
+    <!-- INFORMACIÓN QUIÉNES SOMOS CON ÍCONOS -->
     <section class="d-none d-lg-block">
         <div class="container">
-            <h3 class="text-center mt-5 mb-4" style="color: #ffffff;">¿Quienes somos?</h3>
+            <h3 id="quienes-somos" class="text-center mt-5 mb-4" style="color: #ffffff;">¿Quiénes somos?</h3>
             <hr color="17c0d6" width=100% size=6rem class="mt-0 mb-0">
         </div>
         <div class="row">
@@ -81,36 +87,41 @@
                 <i class="fas fa-plane fa-2x iconoAvion mt-3 mb-2" style="color: #ffffff;"></i>
                 <p class="avion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptatum
                     ullam sapiente aliquid autem architecto laboriosam eaque odit repudiandae aliquam quam fugit
-                    at pariatur nostrum, asperiores, placeat quae blanditiis error. Lorem ipsum dolor sit amet consectetur
+                    at pariatur nostrum, asperiores, placeat quae blanditiis error. Lorem ipsum dolor sit amet
+                    consectetur
                     adipisicing elit.
                     Neque voluptatibus fuga quisquam, quo laborum, minima, similique debitis cumque minus eos itaque
                     nihil? Ex officia qui ipsam, temporibus aliquid dolor earum! Lorem ipsum, dolor sit amet
-                    consectetur adipisicing elit. Iusto mollitia placeat eveniet incidunt alias excepturi perferendis. In,
+                    consectetur adipisicing elit. Iusto mollitia placeat eveniet incidunt alias excepturi perferendis.
+                    In,
                     exercitationem, quibusdam dolor dignissimos mollitia harum quam veritatis perferendis quis quos
                     animi. Aperiam?
                 </p>
             </div>
-
             <div class="col-4">
                 <p class="monte mt-3 mb-0">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus omnis quae inventore perferendis
                     eveniet? Officiis possimus itaque iste nisi! Quisquam explicabo harum similique quibusdam modi,
-                    deleniti facilis nostrum maiores doloremque! Veniam at repellendus eaque iste, nesciunt voluptas eius 
-                    mollitia ratione explicabo animi excepturi, molestias ex eum doloremque asperiores expedita dignissimos! 
-                    Voluptates, temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ea fugiat 
-                    unde hic harum dolorum sit? Quasi similique impedit, fugiat, temporibus earum ea  deleniti, dicta ut maxime 
+                    deleniti facilis nostrum maiores doloremque! Veniam at repellendus eaque iste, nesciunt voluptas
+                    eius
+                    mollitia ratione explicabo animi excepturi, molestias ex eum doloremque asperiores expedita
+                    dignissimos!
+                    Voluptates, temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ea
+                    fugiat
+                    unde hic harum dolorum sit? Quasi similique impedit, fugiat, temporibus earum ea deleniti, dicta ut
+                    maxime
                     dignissimos ipsam autem?
                 </p>
                 <i class="fas fa-mountain fa-2x iconoMonte mt-3" style="color: #ffffff;"></i>
             </div>
-
             <div class="col-4">
                 <i class="fas fa-route fa-2x iconoRuta mt-3 mb-2" style="color: #ffffff;"></i>
                 <p class="ruta">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quisquam suscipit sit
                     tempora, in sequi. Odit, animi, facere possimus totam maxime culpa perspiciatis sed nesciunt vitae
                     accusamus illo harum quod. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat
-                    quasi quisquam officia, dolore ad amet doloremque, ullam mollitia impedit magnam sunt tempore nobis nam. Doloremque
+                    quasi quisquam officia, dolore ad amet doloremque, ullam mollitia impedit magnam sunt tempore nobis
+                    nam. Doloremque
                     beatae cumque numquam perspiciatis temporibus! Lorem ipsum dolor sit amet consectetur, adipisicing
                     elit. Ad esse placeat atque. Sit quo impedit iure facilis officia nemo deserunt praesentium
                     distinctio, itaque pariatur debitis quam fuga earum accusantium quidem!
@@ -119,85 +130,114 @@
         </div>
     </section>
 
+    <!-- TARJETAS CON INFORMACIÓN DESTACADA -->
     <section>
         <div class="container">
-            <h3 class="text-center mt-5 mb-4" style="color: #ffffff;">Destacados</h3>
+            <h3 id="destacados" class="text-center mt-5 mb-4" style="color: #ffffff;">Destacados</h3>
             <hr color="17c0d6" width=100% size=4rem class="mt-0 mb-0">
         </div>
-    </section>
-
-    <section class="container d-flex mx-auto">
-        <div class="row">
-            <div class="card bg-calipso mt-3 mb-5 col-10 col-md-3 pl-0 pr-0" style="width: 18rem;">
-                <img src="assets/img/card1.jpg" style="width: 90%;" class="card-img-top" alt="Tarjeta1">
-                <div class="card-body">
-                    <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> sed do eiusmod
-                        tempor<br> incididunt ut labore et <br>dolore magna aliqua.</p>
-                </div>
-            </div>
-            <div class="card bg-calipso mt-3 mb-5 col-10 col-md-3 pl-0 pr-0" style="width: 18rem;">
-                <img src="assets/img/card2.jpg" style="width: 80%;" class="card-img-top" alt="Tarjeta2">
-                <div class="card-body">
-                    <h5 class="card-title">Consectetur adipisicing elit</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> sed do eiusmod
-                        tempor<br> incididunt ut labore et <br>dolore magna aliqua.</p>
-                </div>
-            </div>
-            <div class="card bg-calipso mt-3 mb-5 col-10 col-md-3  pl-0 pr-0" style="width: 18rem;">
-                <img src="assets/img/card3.jpg" style="width: 90%;" class="card-img-top" alt="Tarjeta3">
-                <div class="card-body">
-                    <h5 class="card-title">Sed do eiusmod tempor incididunt ut labore</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> sed do eiusmod
-                        tempor<br> incididunt ut labore et <br>dolore magna aliqua.</p>
-                </div>
-            </div>
-            <div class="card bg-calipso mt-3 mb-5 col-10 col-md-3 pl-0 pr-0" style="width: 18rem;">
-                <img src="assets/img/card4.jpg" style="width: 90%;" class="card-img-top" alt="Tarjeta4">
-                <div class="card-body">
-                    <h5 class="card-title">Ut enim ad minim veniam</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> sed do eiusmod
-                        tempor<br> incididunt ut labore et <br>dolore magna aliqua.</p>
-                </div>
-            </div>
-    </section>
-
-    <section>
         <div class="container">
-            <h3 class="text-center mt-5 mb-4" style="color: #ffffff;">Contacto</h3>
-            <hr color="17c0d6" width=100% size=4rem class="mt-0 mb-5">
+            <div class="row no-gutters">
+                <div class="card bg-calipso mt-3 mb-2 col-12  col-md-3" style="width: 18rem;">
+                    <img src="assets/img/card1.jpg" class="card-img-top img-fluid" alt="Tarjeta1">
+                    <div class="card-body">
+                        <h5 class="card-title ">Lorem ipsum dolor sit amet</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="card bg-calipso mt-3 mb-2 col-12 col-md-3" style="width: 18rem;">
+                    <img src="assets/img/card2.jpg" class="card-img-top img-fluid" alt="Tarjeta2">
+                    <div class="card-body">
+                        <h5 class="card-title">Consectetur adipisicing elit</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="card bg-calipso mt-3 mb-2 col-12 col-md-3" style="width: 18rem;">
+                    <img src="assets/img/card3.jpg" class="card-img-top img-fluid" alt="Tarjeta3">
+                    <div class="card-body">
+                        <h5 class="card-title">Sed do eiusmod tempor incididunt ut labore</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="card bg-calipso mt-3 mb-2 col-12 col-md-3" style="width: 18rem;">
+                    <img src="assets/img/card4.jpg" class="card-img-top img-fluid" alt="Tarjeta4">
+                    <div class="card-body">
+                        <h5 class="card-title">Ut enim ad minim veniam</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
+    <!-- FORMULARIO DE CONTACTO -->
     <section>
         <div class="container">
-            <div class="row typeform">
+            <h3 id="contacto" class="text-center mt-5 mb-4" style="color: #ffffff;">Contacto</h3>
+            <hr color="17c0d6" width=100% size=4rem class="mt-0 mb-3">
+        </div>
+        <div class="container">
+            <div class="row typeform mb-3">
                 <div class="col-12 mr-0 pr-0 pl-0">
                     <a href="https://gvdjm0bl2id.typeform.com/to/O68aIGym" target="_blank"><img
                             src="assets/img/Typeform.png" alt="link-Typeform"></a></a>
                 </div>
             </div>
         </div>
-    </section>
+       <!--  codigo script de typeform
 
+           <div data-tf-widget="O68aIGym" data-tf-iframe-props="title=Contact us" data-tf-medium="snippet"
+            style="width:100%;height:400px;"></div>
+        <script src="//embed.typeform.com/next/embed.js"></script> -->
+    </section> 
+
+    <!-- PIE DE PÁGINA -->
     <footer>
         <div>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum ratione consequuntur culpa voluptate?
-            Pariatur cum perspiciatis quisquam deleniti illo minima sequi odio inventore, temporibus enim impedit eos
-            tempora mollitia fugit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <section class="bg-calipso">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-12 col-md-8">
+                            <h2 class="mt-2" style="color: #ffffff;">VIAJES CHILE</h2>
+                        </div>
+                        <div class="row mt-1 ml-5 mb-2">
+                            <div class="col-3 col-md-3">
+                                <a href="https://github.com" target="_blank"><i class="fab fa-github-square fa-3x"
+                                        style="color: #ffffff"></i></a>
+                            </div>
+                            <div class="col-3 col-md-3">
+                                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-3x"
+                                        style="color: #ffffff"></i></a>
+                            </div>
+                            <div class="col-3 col-md-3">
+                                <a href="https://www.twitter.com/" target="_blank"><i
+                                        class="fab fa-twitter-square fa-3x" style="color: #ffffff"></i></a>
+                            </div>
+                            <div class="col-3 col-md-3">
+                                <a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fab fa-facebook-square fa-3x" style="color: #ffffff"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
         </div>
     </footer>
 
 
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
+    <!-- JQUERY VERSIÓN 3.6.0 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- POPPER VERSIÓN 1.16.1 -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
+    <!-- BOOSTRAP 4.6.1 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
         integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
         crossorigin="anonymous"></script>

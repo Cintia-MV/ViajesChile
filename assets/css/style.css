@@ -1,8 +1,15 @@
 body{
     font-family: roboto;
     background-color:black;
+    margin:0;
 }
 
+/* COLOR DE FONDO */
+.bg-calipso{
+    background-color: #17c0d6;
+}
+
+/* ESTILOS PARA BARRA DE NAVEGACIÓN */
 .logo-barra{
     margin-left: 5rem;
 }
@@ -13,6 +20,7 @@ body{
     padding-left: 0;
 }
 
+/* ESTILOS PARA CARROUSEL DE BOOSTRAP */
 .carrusel{
     background-size: cover;
     margin-left: 0;
@@ -20,7 +28,7 @@ body{
     padding-left: 0;
     padding-right: 0;
 }
-
+/* ESTILOS PARA LOGOS E INFORMACIÓN DESTACADA */
 i{
     background-color: #17c0d6;
 }
@@ -74,9 +82,8 @@ i{
     margin-right: 6rem;
 }
 
-.bg-calipso{
-    background-color: #17c0d6;
-}
+
+/* ESTILO PARA IMAGEN Y LINK DE FORMULARIO TYPEFORM */
 
 .imagenLink{
     margin-right: 0;
