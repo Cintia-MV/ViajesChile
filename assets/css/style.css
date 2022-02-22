@@ -4,31 +4,32 @@ body{
     margin:0;
 }
 
-/* COLOR DE FONDO */
 .bg-calipso{
     background-color: #17c0d6;
 }
 
-/* ESTILOS PARA BARRA DE NAVEGACIÓN */
+/* BARRA DE NAVEGACIÓN */
 .logo-barra{
     margin-left: 5rem;
 }
 
-.nav-transparente{
+.navbar{
     background-color: transparent !important;
-    padding-right: 0;
-    padding-left: 0;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
 }
 
-/* ESTILOS PARA CARROUSEL DE BOOSTRAP */
-.carrusel{
+/* HEADER CARROUSEL DE BOOSTRAP */
+#carouselExampleControls{
     background-size: cover;
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
 }
-/* ESTILOS PARA LOGOS E INFORMACIÓN DESTACADA */
+
+/*  DESTACADOS */
 i{
     background-color: #17c0d6;
 }
@@ -82,7 +83,7 @@ i{
     margin-right: 6rem;
 }
 
-/* ESTILO PARA IMAGEN Y LINK DE FORMULARIO TYPEFORM */
+/* FORMULARIO TYPEFORM */
 
 .imagenLink{
     margin-right: 0;
